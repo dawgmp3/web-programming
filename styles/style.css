@@ -1,0 +1,36 @@
+/*html {
+    color: red;
+}
+
+html {
+    position: absolute;
+    width: 182px;
+    height: 44px;
+    left: 102px;
+    top: 21px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+    //font-family: Oswald;
+};*/
+
+.site_name {
+    position: absolute;
+    width: 182px;
+    height: 44px;
+    left: 102px;
+    top: 21px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+}
