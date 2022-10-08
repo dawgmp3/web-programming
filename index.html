@@ -3,46 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <title class ="site_name">RAPFY</title>
+    <title>RAPFY</title>
 </head>
-<body>
+<body class="background">
 <header>
-    <h1>RAPFY</h1>
-    <img src="pictures/logo.png" width="60" height="91" alt="logo"/>
-    <ul>
-        <li>Поиск</li>
-        <li>Аккаунт</li>
-        <li>Меню</li>
-    </ul>
+    <div class ="header_name">RAPFY</div>
+    <div>
+        <img class="header_logo" src="pictures/logo.png" alt="logo"/>
+    </div>
+    <nav>
+        <div>
+            <a href="pages/menu.html">
+                <img class="header_icon icon__search" src="pictures/search.png" alt="search"/>
+            </a>
+            <a href="pages/account.html">
+                <img class="header_icon icon__account" src="pictures/account.png" alt="account"/>
+            </a>
+            <a href="pages/menu.html">
+                <img class="header_icon icon__menu" src="pictures/menu.png" alt="menu"/>
+            </a>
+        </div>
+    </nav>
+<div class="header"></div>
+
 
 </header>
 <main>
-    <ul>
-        <li>АРТИСТЫ</li>
-        <li>ЖАНРЫ</li>
-        <li>ТОП</li>
-        <li>НОВИНКИ</li>
-    </ul>
+    <nav>
+        <div class="general-text">
+            <a href="pages/artists.html">
+                <div class="main-buttons__artists">АРТИСТЫ</div>
+            </a>
+            <a href="pages/genres.html">
+                <div class="main-buttons__genres">ЖАНРЫ</div>
+            </a>
+            <a href="pages/top.html">
+                <div class="main-buttons__top">ТОП</div>
+            </a>
+            <a href="pages/latest.html">
+                <div class="main-buttons__latest">НОВИНКИ</div>
+            </a>
+        </div>
+    </nav>
 
+
+
+
+    <nav>
+        <div>
+            <a href="pages/lilpeep.html">
+                <img class="main-pictures main-pictures__lilpeep" src="pictures/lilpeep.jpeg" alt="lilpeep"/>
+                <div class="general-text name__lilpeep">LIL PEEP</div>
+            </a>
+            <a href="pages/xxxtentacion.html">
+                <img class="main-pictures main-pictures__xxxtentacion" src="pictures/xxxtentacion.jpg" alt="xxxtentacion"/>
+                <div class="general-text name__xxxtentacion">XXXTENTACION</div>
+            </a>
+            <a href="pages/juicewrld.html">
+                <img class="main-pictures main-pictures__juicewrld" src="pictures/juicewrld.jpg" alt="juicewrld"/>
+                <div class="general-text name__juicewrld">Juice WRLD</div>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="top text__top">ТОП НЕДЕЛИ</div>
     <div>
-        <img src="pictures/lilpeep.jpeg" width="290" height="290" alt="LIL PEEP"/>
-    <h4>Lil Peep</h4>
-        <img src="pictures/xxxtentacion.jpg" width="290" height="290" alt="XXXTENTACION"/>
-    <h4>XXXTENTACION</h4>
-        <img src="pictures/juicewrld.jpg" width="290" height="290" alt="Juice WRLD"/>
-    <h4>Juice WRLD</h4>
+
+            <a href="pages/kanye.html">
+                <img class="album album__kanye" src="pictures/album-kanye.jpg" alt="album-kanye"/>
+                <div class="general-text general-text__kanye">Kanye West - Violent Crimes</div>
+            </a>
+
+
+        <div class="header-songs__first"></div>
+
+
+            <a href="pages/brockhampton.html">
+                <img class="album album__brockhampton" src="pictures/album-brockhampton.jpg" alt="album-brockhampton"/>
+                <div class="general-text general-text__brockhampton">BROCKHAMPTON - SUGAR</div>
+            </a>
+
+
+        <div class="header-songs__second"></div>
+
+
+            <a href="https://www.youtube.com/watch?v=kk3_5AHEZxE">
+                <img class="album album__kendrick" src="pictures/album-kendrick.jpg" alt="album-kendrick"/>
+                <div class="general-text general-text__kendrick">Kendrick Lamar - BLOOD.</div>
+            </a>
+
+        <div class="header-songs__third"></div>
+
     </div>
 
-    <div> <h3>ТОП НЕДЕЛИ</h3>
-        <ul>
-            <li>песня1</li>
-            <li>песня2</li>
-            <li>песня2</li>
-        </ul>
-    </div>
+
+
+
 </main>
 <footer>
-    <h5>КОНТАКТЫ: RAPFY@MAIL.RU</h5>
+    <div class="footer general-text__contacts">КОНТАКТЫ: RAPFY@MAIL.RU</div>
 </footer>
 </body>
 </html>
