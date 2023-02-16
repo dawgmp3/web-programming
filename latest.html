@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script defer src="/script.js"></script>
+    <title>RAPFY</title>
+</head>
+<body>
+<header>
+    <div class="header__container">
+        <a href="index.html">
+            <img class="header__logo" src="pictures/logo.png" alt="logo"/>
+        </a>
+        <a href="index.html" class="header__name">RAPFY</a>
+    </div>
+    <nav>
+        <a href="menu.html">
+            <img class="header__icon" src="pictures/search.png" alt="search"/>
+        </a>
+        <a href="account.html">
+            <img class="header__icon" src="pictures/account.png" alt="account"/>
+        </a>
+        <a href="menu.html">
+            <img class="header__icon" src="pictures/menu.png" alt="menu"/>
+        </a>
+    </nav>
+</header>
+
+<main>
+    <div class="header__line"></div>
+
+    <div class="buttons">
+        <a href="artists.html">
+            <div class="clicking">АРТИСТЫ</div>
+        </a>
+        <a href="genres.html">
+            <div class="clicking">ЖАНРЫ</div>
+        </a>
+        <a href="top.html">
+            <div class="clicking">ТОП</div>
+        </a>
+        <a href="latest.html">
+            <div class="clicking clicking_active">НОВИНКИ</div>
+        </a>
+    </div>
+
+
+<!--    <div id="container"></div>-->
+
+
+<!--    <button onclick="hdbsschbs()">Создать таблицу</button>-->
+<!--    <div id="container"></div>-->
+
+    <form onsubmit="anotherFunc();return false;">
+<!--        Enter name: <input type="text">-->
+        <input type="submit" value="Make a table">
+    </form>
+
+</main>
+
+
+<footer>
+    <div class="popup" onclick="myFunction()">КОНТАКТЫ: RAPFY@MAIL.RU
+        <span class="popuptext" id="myPopup">Напишите нам по любым вопросам!</span>
+    </div>
+</footer>
+
+<div>
+    <span id="loadtime"></span>
+</div>
+
+
+</body>
+<script src="/script.js"></script>
+</html>

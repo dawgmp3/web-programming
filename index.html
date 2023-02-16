@@ -1,48 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <title class ="site_name">RAPFY</title>
+    <script src="/script.js"></script>
+    <title>RAPFY</title>
 </head>
 <body>
+
+
 <header>
-    <h1>RAPFY</h1>
-    <img src="pictures/logo.png" width="60" height="91" alt="logo"/>
-    <ul>
-        <li>Поиск</li>
-        <li>Аккаунт</li>
-        <li>Меню</li>
-    </ul>
-
+    <div class="header__container">
+        <a href="index.html">
+            <img class="header__logo" src="pictures/logo.png" alt="logo"/>
+        </a>
+        <a href="index.html" class="header__name">RAPFY</a>
+    </div>
+    <nav>
+        <a href="menu.html">
+            <img class="header__icon" src="pictures/search.png" alt="search"/>
+        </a>
+        <a href="account.html">
+            <img class="header__icon" src="pictures/account.png" alt="account"/>
+        </a>
+        <a href="menu.html">
+            <img class="header__icon" src="pictures/menu.png" alt="menu"/>
+        </a>
+    </nav>
 </header>
+
 <main>
-    <ul>
-        <li>АРТИСТЫ</li>
-        <li>ЖАНРЫ</li>
-        <li>ТОП</li>
-        <li>НОВИНКИ</li>
-    </ul>
+    <div class="header__line"></div>
 
-    <div>
-        <img src="pictures/lilpeep.jpeg" width="290" height="290" alt="LIL PEEP"/>
-    <h4>Lil Peep</h4>
-        <img src="pictures/xxxtentacion.jpg" width="290" height="290" alt="XXXTENTACION"/>
-    <h4>XXXTENTACION</h4>
-        <img src="pictures/juicewrld.jpg" width="290" height="290" alt="Juice WRLD"/>
-    <h4>Juice WRLD</h4>
+    <div class="buttons">
+        <a href="artists.html">
+            <div class="clicking">АРТИСТЫ</div>
+        </a>
+        <a href="genres.html">
+            <div class="clicking">ЖАНРЫ</div>
+        </a>
+        <a href="top.html">
+            <div class="clicking">ТОП</div>
+        </a>
+        <a href="latest.html">
+            <div class="clicking">НОВИНКИ</div>
+        </a>
     </div>
 
-    <div> <h3>ТОП НЕДЕЛИ</h3>
-        <ul>
-            <li>песня1</li>
-            <li>песня2</li>
-            <li>песня2</li>
-        </ul>
+
+    <div class="main-songs">
+        <a href="https://www.youtube.com/watch?v=WvV5TbJc9tQ">
+            <img class="main-songs__pictures" src="pictures/lilpeep.jpeg" alt="lilpeep"/>
+            <div class="main-songs__song">LIL PEEP</div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=GX8Hg6kWQYI">
+            <img class="main-songs__pictures" src="pictures/xxxtentacion.jpg" alt="xxxtentacion"/>
+            <div class="main-songs__song">XXXTENTACION</div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=mzB1VGEGcSU">
+            <img class="main-songs__pictures" src="pictures/juicewrld.jpg" alt="juicewrld"/>
+            <div class="main-songs__song">Juice WRLD</div>
+        </a>
     </div>
+
+
+
+    <div class="top-of-the-week">
+        <div class="top-of-the-week__text">ТОП НЕДЕЛИ</div>
+
+        <div class="top-of-the-week__song">
+            <a href="https://www.youtube.com/watch?v=PsO6ZnUZI0g">
+                <div class="top-of-the-week__item">
+                    <img class="top-of-the-week__text__pic" src="pictures/album-kanye.jpg" alt="album-kanye"/>
+                    <div class="top-of-the-week__text">Kanye West - Violent Crimes</div>
+                </div>
+            </a>
+        </div>
+
+
+<!--        <div class="top-of-the-week__line"></div>-->
+
+
+        <div class="top-of-the-week__song">
+            <a href="https://www.youtube.com/watch?v=4cucHc2vef4">
+                <div class="top-of-the-week__item">
+                    <img class="top-of-the-week__text__pic" src="pictures/album-brockhampton.jpg" alt="album-brockhampton"/>
+                    <div class="top-of-the-week__text">BROCKHAMPTON - SUGAR</div>
+                </div>
+            </a>
+        </div>
+
+
+
+<!--        <div class="top-of-the-week__line"></div>-->
+
+
+        <div class="top-of-the-week__song">
+            <a href="https://www.youtube.com/watch?v=kk3_5AHEZxE">
+                <div class="top-of-the-week__item">
+                    <img class="top-of-the-week__text__pic" src="pictures/album-kendrick.jpg" alt="album-kendrick"/>
+                    <div class="top-of-the-week__text">Kendrick Lamar - BLOOD.</div>
+                </div>
+            </a>
+        </div>
+
+<!--        <div class="top-of-the-week__line"></div>-->
+
+    </div>
+
 </main>
 <footer>
-    <h5>КОНТАКТЫ: RAPFY@MAIL.RU</h5>
+    <div class="popup" onclick="myFunction()">КОНТАКТЫ: RAPFY@MAIL.RU
+        <span class="popuptext" id="myPopup">Напишите нам по любым вопросам!</span>
+    </div>
 </footer>
+
+<div>
+    <span id="loadtime"></span>
+</div>
+
 </body>
 </html>
