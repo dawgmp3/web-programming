@@ -1,245 +1,39 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    background: linear-gradient(116.28deg, #1A575A 6.63%, #471E25 95.34%);
+}
+
 a{
     color: #000000;
     text-decoration: none;
-}
-
-.site_name {
-    position: absolute;
-    width: 182px;
-    height: 44px;
-    left: 102px;
-    top: 21px;
 
     font-family: 'Archivo Black', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 61px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 
-    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header{
-    position: absolute;
-    top: 63px;
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    height: 55px;
+}
+
+.header__line{
     width: 100%;
-    left: 0px;
-    height: 0px;
-
-    border: 2px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-.header_logo{
-    position: absolute;
-    width: 37px;
-    height: 56px;
-    left: 22px;
-    top: 9px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
-.header_name{
-    position: absolute;
-    width: 87px;
-    height: 24px;
-    left: 107px;
-    top: 25px;
-
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 30px;
-
-    color: #000000;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.header_icon{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-}
-
-.icon__search{
-    left: 1153px;
-    top: 17px;
-}
-
-.icon__account{
-    left: 1251px;
-    top: 17px;
-}
-
-.icon__menu{
-    left: 1350px;
-    top: 17px;
-
-}
-
-.general-text{
-    width: 336px;
-    height: 29px;
-    /*left: 182px;*/
-    /*top: 712px;*/
-
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.footer{
-    /*position: absolute;*/
-    width: 231px;
-    height: 21px;
-    /*left: 604px;*/
-    /*top: 1003px;*/
-
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-
-    color: #000000;
-}
-
-.top{
-    /*position: absolute;*/
-    width: 160px;
-    height: 29px;
-    /*left: 112px;*/
-    /*top: 651px;*/
-
-    font-family: 'Archivo Black', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.main-pictures{
-    position: absolute;
-    width: 230px;
-    height: 230px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-}
-
-.main-pictures__lilpeep{
-    left: 150px;
-    top: 240px;
-}
-
-.main-pictures__xxxtentacion{
-    left: 592px;
-    top: 240px;
-}
-
-.main-pictures__juicewrld{
-    left: 1070px;
-    top: 240px;
-}
-
-.main-buttons__artists{
-    position: absolute;
-    left: 304px;
-    top: 110px;
-}
-
-.main-buttons__genres{
-    position: absolute;
-    left: 564px;
-    top: 110px;
-}
-
-.main-buttons__top{
-    position: absolute;
-    left: 812px;
-    top: 110px;
-}
-
-.main-buttons__latest{
-    position: absolute;
-    left: 982px;
-    top: 110px;
-}
-
-.name__lilpeep{
-    position: absolute;
-    left: 209px;
-    top: 489px;
-}
-
-.name__xxxtentacion{
-    position: absolute;
-    left: 615px;
-    top: 489px;
-}
-
-.name__juicewrld{
-    position: absolute;
-    left: 1113px;
-    top: 489px;
-}
-
-.text__top{
-    position: absolute;
-    left: 112px;
-    top: 620px;
-}
-
-.album{
-    width: 50px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.album__kanye{
-    position: absolute;
-    left: 112px;
-    top: 680px;
-}
-
-.album__brockhampton{
-    position: absolute;
-    left: 112px;
-    top: 775px;
-}
-
-.album__kendrick{
-    position: absolute;
-    left: 112px;
-    top: 870px;
-}
-
-.general-text__kanye{
-    position: absolute;
-    left: 200px;
-    top: 690px;
-}
-
-.general-text__brockhampton{
-    position: absolute;
-    left: 200px;
-    top: 785px;
-}
-
-.general-text__kendrick{
-    position: absolute;
-    left: 200px;
-    top: 880px;
-}
-
-.header-songs__first{
-    position: absolute;
-    top: 750px;
-    width: 33%;
     left: 105px;
     height: 0px;
 
@@ -247,8 +41,109 @@ a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.header-songs__second{
-    position: absolute;
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    width: 37px;
+    height: 56px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    padding: 15px;
+}
+
+.header__icon{
+    width: 35px;
+    height: 35px;
+    padding: 15px;
+}
+
+
+.header__name{
+    align-self: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 300px;
+}
+
+.clicking:hover {
+    color: white;
+}
+
+/*.clicking:focus {*/
+/*    outline: none;*/
+/*    box-shadow: 0 0 0 3px lightskyblue;*/
+/*}*/
+
+.clicking_active {
+    text-decoration: underline;
+}
+
+
+.main-songs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 200px;
+}
+
+
+.main-songs__song{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-songs__pictures{
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+
+.top-of-the-week__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.top-of-the-week__text{
+    width: 336px;
+    height: 29px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 10px;
+}
+
+
+.top-of-the-week__text__pic{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.top-of-the-week__line{
     top: 845px;
     width: 33%;
     left: 105px;
@@ -258,23 +153,208 @@ a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.header-songs__third{
+footer{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 70px 0px 0px 0px;
+}
+
+/*table{*/
+/*    font-family: 'Archivo Black', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 20px;*/
+/*    display: grid;*/
+/*    grid-template-columns:*/
+/*    minmax(100px, 1fr)*/
+/*    minmax(100px, 1.67fr);*/
+/*    margin: 15px;*/
+/*}*/
+
+/*thead,*/
+/*tbody,*/
+/*tr {*/
+/*    display: contents;*/
+/*}*/
+
+/*th,*/
+/*td {*/
+/*    padding: 15px;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: nowrap;*/
+/*}*/
+
+/*th {*/
+/*    background: #40282E;*/
+/*    text-align: left;*/
+/*    font-family: 'Archivo Black', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 20px;*/
+/*}*/
+
+.top-of-the-week{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    padding: 75px 100px;
+}
+
+/*th:last-child {*/
+/*    border: 0;*/
+/*}*/
+
+/*td {*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*}*/
+
+/*tr:nth-child(even) td {*/
+/*    background: #40282E;*/
+/*}*/
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background: #34373C;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
     position: absolute;
-    top: 930px;
-    width: 33%;
-    left: 105px;
-    height: 0px;
-
-    border: 2px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
 }
 
-.general-text__contacts{
+.popup .popuptext::after {
+    content: "";
     position: absolute;
-    left: 592px;
-    top: 990px;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
 }
 
-.background{
-    background: linear-gradient(116.28deg, #1A575A 6.63%, #471E25 95.34%);
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
 }
+
+@media screen and (max-width: 1000px){
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 1150px){
+    .main-songs{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+.overlay {
+
+    /* Скрываем подложку  */
+    opacity: 0;
+    visibility: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+}
+
+
+/* Стили для модальных окон */
+
+.modal {
+
+    /* Скрываем окна  */
+    opacity: 0;
+    visibility: hidden;
+
+
+    /*  Установаем ширину окна  */
+    width: 100%;
+    max-width: 500px;
+
+    /*  Центрируем и задаем z-index */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30; /* Должен быть выше чем у подложки*/
+
+    /*  Побочные стили   */
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #444;
+    cursor: pointer;
+}
+
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+
+/*a {*/
+/*    padding: 20px;*/
+/*    display: inline-block;*/
+/*    text-decoration: none;*/
+/*    background-color: #414b52;*/
+/*    margin: 10px;*/
+/*    color: #fff;*/
+/*    border-radius: 3px;*/
+/*}*/
