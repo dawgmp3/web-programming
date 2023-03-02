@@ -1,17 +1,17 @@
-// const myFunction = () => {
-//     const popup = document.getElementById("myPopup");
-//     popup.classList.toggle("show");
-// }
-//
-// const before_loadtime = new Date().getTime();
-// window.onload = Pageloadtime;
-// function Pageloadtime() {
-//     const aftr_loadtime = new Date().getTime();
-//     pgloadtime = (aftr_loadtime - before_loadtime) / 1000
-//
-//     document.getElementById("loadtime").innerHTML = "Page load time is <font color='black'><b>" + pgloadtime + "</b></font> Seconds";
-// }
-//
+const myFunction = () => {
+    const popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+const before_loadtime = new Date().getTime();
+window.onload = Pageloadtime;
+function Pageloadtime() {
+    const aftr_loadtime = new Date().getTime();
+    pgloadtime = (aftr_loadtime - before_loadtime) / 1000
+
+    document.getElementById("loadtime").innerHTML = "Page load time is <font color='black'><b>" + pgloadtime + "</b></font> Seconds";
+}
+
 // const func = () => {
 //     let num_of_days = Number(prompt('Введите количесвто дней'));
 //     let num_of_lessons = Number(prompt('Введите количесвто занятий'));
@@ -32,7 +32,7 @@
 //         }
 //     }
 // }
-//
+
 // function anotherFunc(){
 //     let num_of_days = Number(prompt('Введите количесвто дней'));
 //     let num_of_lessons = Number(prompt('Введите количесвто занятий'));
